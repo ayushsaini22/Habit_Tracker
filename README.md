@@ -17,3 +17,24 @@ A full stack application for tracking the progress of all the habits.
    2. On separate terminal run "nodemon index.js" or "node index.js" to start the server.
    3. The application works on port 8000, so open "http://localhost:8000/index" to get to home page.
    4. To close server press ctrl+c.
+
+## Directory Structure
+```
+habit-tracker
+├── config                   # DataBase config file
+│   └── mongoose.js
+├── controllers                # Controllers
+│   ├── home.js
+│   └── details.js
+├── models                   # DataBase Schemas
+│   └── Habit.js
+├── index.js                  # Entry point
+├── assets                  # All the static files
+│   └── css
+│   └── js
+│   └── images
+└── routes                     # Express Router
+    └── index.js
+    └── users.js
+|
+
