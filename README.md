@@ -21,20 +21,27 @@ A full stack application for tracking the progress of all the habits.
 ## Directory Structure
 ```
 habit-tracker
-├── config                   # DataBase config file
-│   └── mongoose.js
-├── controllers                # Controllers
-│   ├── home.js
-│   └── details.js
-├── models                   # DataBase Schemas
-│   └── Habit.js
-├── index.js                  # Entry point
 ├── assets                  # All the static files
 │   └── css
 │   └── js
 │   └── images
-└── routes                     # Express Router
-    └── index.js
-    └── users.js
-|
+├── config                   # DataBase config file
+│   └── mongoose.js
+├── controllers                # Controllers
+│   ├── addHabitController.js
+│   ├── detailedHabbitController.js
+│   └── indexController.js
+├── models                   # DataBase Schemas
+│   └── habbit.js
+├── node_modules.js
+├── routes                     # Express Router 
+│    └── addHabitRouter.js
+│    └── detailedHabitRouter.js
+│    └── indexRouter.js
+├── views                     
+│    └── detailed.ejs
+│    └── index.js
+├── index.js                  # Entry point
+├── package-lock.json    
+└── package.json
 
